@@ -1,0 +1,116 @@
+/* フォントと基本 */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* ヘッダー */
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #000;
+  z-index: 1000;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+header nav ul li {
+  margin: 0 15px;
+}
+header nav ul li a {
+  color: #ffcd42;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Home */
+#home {
+  background-color: #ffcd42;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#home h1 {
+  font-size: 3rem;
+  margin: 20px 0 10px;
+}
+#home p {
+  font-size: 1.2rem;
+}
+
+/* About, YouTube, DJMIX, History, SNS */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+#about, #djmix, #sns {
+  background-color: #000;
+  color: #ffcd42;
+}
+#youtube, #history {
+  background-color: #ffcd42;
+  color: #000;
+}
+
+/* ボタン */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #000;
+  color: #ffcd42;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+/* SNSリンク */
+.sns-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.sns-links li {
+  margin: 0 10px;
+}
+.sns-links li a {
+  color: #ffcd42;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Video responsive */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 560px;
+  margin: 0 auto;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* History */
+#history ul {
+  list-style: none;
+  padding: 0;
+}
+#history li {
+  margin: 10px 0;
+}
