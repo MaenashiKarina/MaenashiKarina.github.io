@@ -204,3 +204,37 @@ section {
     max-width: 90%;
   }
 }
+/* LINK セクション */
+#link {
+  text-align: center;
+  padding: 60px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.sns-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.sns-links a {
+  color: #ffcd42;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.sns-links a:hover {
+  color: #fff;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  background-color: #111;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 0.9rem;
+}
